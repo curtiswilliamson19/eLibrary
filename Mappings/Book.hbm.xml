@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+				   assembly="LibraryManagementApplication"
+				   namespace="LibraryManagementApplication.Model">
+	<class name="Book" table="Book">
+		<id name ="ID" column="ID" type="System.Guid">
+			<generator class="guid.comb"/>
+		</id>
+		<property name="Title" column="Title" type="System.String" not-null="true"/>
+		<property name="Author" column="Author" type="System.String" not-null="true"/>
+		<property name="Description" column="Description" type="System.String" not-null="false"/>
+		<property name="ISBN" column="ISBN" type="System.String" not-null="true"/>
+	</class>
+</hibernate-mapping>
