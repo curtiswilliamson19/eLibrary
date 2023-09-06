@@ -19,6 +19,11 @@ eLibrary is a virtual library application. Books and users on the application ca
 ## Important Information
 Please note: For this application to run C# (.Net 4.6.2) must be installed alongside SQL Management Studio and a local SQL Server. A connection string to the local database then needs to be set up in the App.config file.
 
-<!-- Need to acknowledge image creators -->
-<!-- ## Acknowledgements
-eLibrary was developed using freely available image files. The creators of said files are as follows: -->
+## Acknowledgements
+eLibrary was developed using freely available image files. The creators of said files are as follows:
+- Nawicon: eLibrary Logo
+- Izoca: Background Menu
+- Freepik: User Icon, Book Icon, Magnifying Glass
+- Smashicons: Loan Icon
+- Piksart: Exit Icon
+- DinosoftLabs: Reports Icon
